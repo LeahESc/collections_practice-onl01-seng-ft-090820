@@ -21,7 +21,7 @@ end
 def kesha_maker(array)
   # kesha = []
   # array.each.map
-  array.map do |name| 
+  array.collect do |name| 
   name[2] = "$" 
   name
   end
