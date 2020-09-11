@@ -39,10 +39,10 @@ end
 
 def add_s(array)
   array.each_with_index.map do |element, index|
-    if index = 1 
-     element
-    else
+    if index != 1 
      element + "s"
+    elsif index == 1 
+      element
     end
   end
 end
