@@ -21,8 +21,8 @@ end
 def kesha_maker(array)
   # kesha = []
   # array.each.map
-  # array.each_with_index.map do |name, index| 
-  # name[2] = "$" 
-  # name
-  # end
+  array.map do |name| 
+  name[2] = "$" 
+  name
+  end
 end
