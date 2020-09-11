@@ -19,8 +19,10 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
+  # kesha = []
+  # array.each.map
   # array.each_with_index.map do |name, index| 
-  #   name[2] = "$" 
-    name
-  end
+  # name[2] = "$" 
+  # name
+  # end
 end
